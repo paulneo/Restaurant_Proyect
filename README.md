@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![alt tag](https://raw.github.com/dogfalo/materialize/master/images/materialize.gif)
 ===========
 
@@ -46,3 +47,7 @@ Chrome 35+, Firefox 31+, Safari 7+, IE 10+
 
 ## Testing
 We use Jasmine as our testing framework and we're trying to write a robust test suite for our components. If you want to help, [here's a starting guide on how to write tests in Jasmine](https://docs.google.com/document/d/1dVM6qGt_b_y9RRhr9X7oZfFydaJIEqB9CT7yekv-4XE/edit?usp=sharing)
+=======
+# Restaurant_Proyect
+¿Quieres comer rico? Has tu pedido ¡ya!...
+>>>>>>> 82c0a644196b79dfa6a72fc8f538f3ae8a558078
