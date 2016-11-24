@@ -48,16 +48,16 @@
 .datos2{
   position: absolute;
   right: 402px;
-  bottom: -92px;
+  bottom: -138px;
 }
 .datos3{
   position: absolute;
   right: 402px;
-  top: 851px;
+  top: 1037px;
 }
 
 .datitos{
-  font-size: 19px;
+  font-size: 22px;
 }
 .img{
   height: 203px;
