@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>restaurant</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu">
+        <nav class="opciones">
+          <ul class="elementos">
+            <li>
+              <img class=" logo"src="imagenes/restaurant.png"/>
+            </li>
+            <li class="comidas">
+              <a class="a"href="#">COMIDAS</a>
+            </li>
+            <li class="postres">
+              <a class="a" href="#">POSTRES</a>
+            </li>
+            <li class="refrescos">
+              <a class="a" href="#">REFRESCOS</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="contenido">
+      <div class="platos">
+        <div class="almuerzos">
+          <div class="img_plato1">
+            <img class="img" src="imagenes/lomo_saltado.png"/>
+          </div>
+          <div class="datos1">
+            <p class="datitos">Precios: <br/>Familiar: 45 soles <br/>personal: 12 soles </p>
+            <button data-target="modal1" class="btn" type="button" name="button">Pedir</button>
+
+          </div>
+        </div>
+        <div class="almuerzos">
+          <div class="img_plato2">
+            <img class="img"src="imagenes/caldo_de_gallina.jpg"/>
+          </div>
+          <div class="datos2">
+            <p class="datitos">Precios: <br/>Familiar: 45 soles <br/>personal: 12 soles </p>
+            <button data-target="modal1" class="btn" type="button" name="button">Pedir</button>
+
+          </div>
+        </div>
+        <div class="almuerzos">
+          <div class="img_plato3">
+            <img class="img" src="imagenes/bistec_a_lo_pobre.png"/>
+          </div>
+          <div class="datos3">
+            <p class="datitos">Precios: <br/>Familiar: 45 soles <br/>personal: 12 soles </p>
+            <button data-target="modal1" class="btn" type="button" name="button">Pedir</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="modal1" class="modal">
+      <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+          <label for="first_name">Nombres</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Apellidos</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+          <label for="first_name">Cantidad</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+          <label for="first_name">DNI</label>
+        </div>
+      </div>
+    <form action="#">
+      <p>Porciones</p>
+      <p>
+        <input name="group1" type="radio" id="test1" />
+        <label for="test1">Familiar</label>
+      </p>
+      <p>
+        <input name="group1" type="radio" id="test2" />
+        <label for="test2">Personal</label>
+      </p>
+    </form>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          This is an inline input field:
+          <div class="input-field inline">
+            <input id="email" type="email" class="validate">
+            <label for="email" data-error="wrong" data-success="right">Email</label>
+          </div>
+        </div>
+      </div>
+    </form>
+    </div>
+  </body>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+    });
+
+
+  </script>
+
+</html>

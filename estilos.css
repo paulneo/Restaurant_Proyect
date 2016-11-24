@@ -1,0 +1,76 @@
+
+.logo{
+  height: 172px;
+  margin-top: -68px;
+  margin-left: 157px;
+}
+.a{
+  text-decoration: none;
+  color: white;
+  margin-left: -107px;
+}
+.comidas{
+  position: absolute;
+  left: 573px;
+}
+.refrescos{
+  position: absolute;
+  left: 720px;
+}
+.postres{
+  position: absolute;
+  left: 897px;
+}
+.opciones{
+  position: absolute;
+  font-size: 20px;
+  top: 48px;
+}
+.elementos{
+  list-style: none;
+}
+.contenido{
+  text-align: center;
+  margin-top: 190px;
+}
+.almuerzos{
+  margin-top: 40px;
+  border: 4px solid #ff7250;
+  border-radius: 6px;
+  margin: 40px 333px 51px 284px;
+  padding: 10px 207px 37px 12px;
+}
+.datos1{
+  position: absolute;
+  right: 402px;
+  bottom: 240px;
+}
+.datos2{
+  position: absolute;
+  right: 402px;
+  bottom: -92px;
+}
+.datos3{
+  position: absolute;
+  right: 402px;
+  top: 851px;
+}
+
+.datitos{
+  font-size: 19px;
+}
+.img{
+  height: 203px;
+      margin-right: 102px;
+}
+button{
+  border-radius: 12px;
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+  background: #fd324e;
+  background: linear-gradient(to left, #fe344e, #ff7250);
+}
