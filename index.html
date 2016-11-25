@@ -38,7 +38,7 @@
             <img class="img" src="imagenes/lomo_saltado.png"/>
           </div>
           <div class="datos1">
-            <p class="datitos">Precio: <br/> 18 soles </p>
+            <p class="datitos">Precio: <br/> S/.18 </p>
             <button data-target="modal1" class="btn" type="button" name="button">Pedir</button>
 
           </div>
@@ -49,7 +49,7 @@
             <img class="img"src="imagenes/caldo_de_gallina.jpg"/>
           </div>
           <div class="datos2">
-            <p class="datitos">Precio: <br/> 16 soles </p>
+            <p class="datitos">Precio: <br/> S/.16 </p>
             <button data-target="modal1" class="btn" type="button" name="button">Pedir</button>
           </div>
         </div>
@@ -59,7 +59,7 @@
             <img class="img" src="imagenes/bistec_a_lo_pobre.png"/>
           </div>
           <div class="datos3">
-            <p class="datitos">Precios: <br/> 25 soles </p>
+            <p class="datitos">Precios: <br/> S/.25 </p>
             <button data-target="modal1" class="btn" type="button" name="button">Pedir</button>
           </div>
         </div>
@@ -67,39 +67,29 @@
     </div>
     <div id="modal1" class="modal">
       <div class="row">
-      <form class="col s12">
-        <div class="row">
-          <div class="input-field col s6">
-            <input id="last_name" type="text" class="validate">
-            <label for="last_name">Nombres</label>
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Nombres</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Apellidos</label>
+            </div>
           </div>
-          <div class="input-field col s6">
-            <input id="last_name" type="text" class="validate">
-            <label for="last_name">Apellidos</label>
-          </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s6">
-            <input id="last_name" type="text" class="validate">
-            <label for="last_name">Cantidad</label>
-          </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s6">
-            <input id="last_name" type="text" class="validate">
-            <label for="last_name">DNI</label>
-          </div>
-        </div>
-      <form action="#">
-        <label for="last_name">Porciones</label>
-        <p>
-          <input name="group1" type="radio" id="test1" />
-          <label for="test1">Familiar</label>
-        </p>
-        <p>
-          <input name="group1" type="radio" id="test2" />
-          <label for="test2">Personal</label>
-        </p>
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">DNI</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="number" class="validate">
+              <label for="last_name">Cantidad</label>
+            </div>
+          </div>         
+        </form>
+      </div>
       <div class="fixed-action-btn horizontal">
         <button class="btn waves-effect waves-light" type="submit" name="action">Reservar
           <i class="material-icons right">send</i>
@@ -113,9 +103,7 @@
     $(document).ready(function(){
       // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
     $('.modal').modal();
-    });
-
-
+  });
   </script>
 
 </html>
